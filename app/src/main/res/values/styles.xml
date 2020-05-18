@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Title Text-->
+    <style name="CustomTitleText">
+        <item name="android:fontFamily">@font/cera_round_pro_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:textColor">@color/colorTitleText</item>
+    </style>
+
+    <!-- Description Text-->
+    <style name="CustomDescriptionText">
+        <item name="android:fontFamily">@font/cera_round_pro_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/colorTitleText</item>
+    </style>
+</resources>
